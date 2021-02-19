@@ -1,0 +1,19 @@
+{
+  "group1": [
+    {
+      "key1": "secret",
+      "field1": "val1"
+    },
+    {
+      "key1": "not secret",
+      "field1": "wrong"
+    },
+    {
+      "key1": [
+        "secret1",
+        "secret2"
+      ],
+      "field1": "val1"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "dbx12/data-censor",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DBX12",
+            "email": "dbx12@dbx12.de"
+        }
+    ],
+    "license": "MIT",
+    "description": "A tool to quickly censor data structures and JSON files before publishing them.",
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dbx12\\jsonCensor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dbx12\\jsonCensor\\tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.2"
+    }
+}
